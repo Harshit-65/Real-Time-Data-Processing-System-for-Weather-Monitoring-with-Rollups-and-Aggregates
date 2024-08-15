@@ -2,7 +2,7 @@
 
 ![Screenshot 2024-08-16 005934](https://github.com/user-attachments/assets/eaa1f5bf-1293-4351-b541-14f6df41e8b9)
 
-## VIDEO EXPLAINATION
+## Video Explanation
 https://drive.google.com/file/d/1JB9QS93gOlv38UFhkLZfPIS2kVYXtNNH/view?usp=sharing
 
 ## Objective
