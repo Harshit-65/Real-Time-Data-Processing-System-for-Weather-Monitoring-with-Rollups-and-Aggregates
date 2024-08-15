@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b99429df.css",
+    "main.js": "/static/js/main.137a260e.js",
+    "static/js/453.68d2f560.chunk.js": "/static/js/453.68d2f560.chunk.js",
+    "static/media/bell_ring2.png": "/static/media/bell_ring2.f51300877296dda0dfac.png",
+    "static/media/bell2.png": "/static/media/bell2.279a6a1f40f670843168.png",
+    "index.html": "/index.html",
+    "main.b99429df.css.map": "/static/css/main.b99429df.css.map",
+    "main.137a260e.js.map": "/static/js/main.137a260e.js.map",
+    "453.68d2f560.chunk.js.map": "/static/js/453.68d2f560.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b99429df.css",
+    "static/js/main.137a260e.js"
+  ]
+}

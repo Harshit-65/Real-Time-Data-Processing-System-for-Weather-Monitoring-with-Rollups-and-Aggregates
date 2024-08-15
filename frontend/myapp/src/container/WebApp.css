@@ -1,0 +1,135 @@
+.weather-container {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(118 118 118);
+  }
+  
+  .wind_humid_section p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  #location{
+    color: black;
+  }
+  .data_section{
+    display: flex;
+
+  }
+
+  .wind_humid_section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 19px;
+    margin: 8px 0;
+  }
+
+  .temp{
+    font-size: 83px;
+    margin: 5px 0;
+    color: #555555;
+    /* padding: 20px; */
+    padding-left: 25px;
+  }
+  
+
+  .weather_icon img{
+    height: 74px;
+    margin: 14px 0;
+  }
+
+
+  
+
+/* WebApp.css */
+
+#location-input {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 10px;
+  border: none;
+  width: 135px;
+  background-color: #f7f7f7;
+}
+
+#location-button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background-color: lightgrey;
+  color: #8f8f8f;
+  border-radius: 15px;
+}
+#location-button:hover {
+  background-color: rgb(187, 186, 186);
+  color: #7d7d7d;
+}
+
+.weather-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.data_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather_icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.temp {
+  font-size: 3rem;
+  margin-left: 10px;
+}
+
+.wind_humid_section {
+  margin-left: 20px;
+}
+
+.alert-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.alert-section.active {
+  background-color: #ffcccc; /* Light red background */
+}
+
+.bell-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s;
+}
+
+.bell-icon.shaking {
+  animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-5deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}

@@ -1,0 +1,16 @@
+[
+  { "date": "2024-08-01", "avgTemp": 75, "minTemp": 68, "maxTemp": 82 },
+  { "date": "2024-08-02", "avgTemp": 78, "minTemp": 70, "maxTemp": 85 },
+  { "date": "2024-08-03", "avgTemp": 80, "minTemp": 72, "maxTemp": 88 },
+  { "date": "2024-08-04", "avgTemp": 82, "minTemp": 74, "maxTemp": 90 },
+  { "date": "2024-08-05", "avgTemp": 76, "minTemp": 69, "maxTemp": 83 },
+  { "date": "2024-08-06", "avgTemp": 79, "minTemp": 71, "maxTemp": 86 },
+  { "date": "2024-08-07", "avgTemp": 81, "minTemp": 73, "maxTemp": 89 },
+  { "date": "2024-08-08", "avgTemp": 77, "minTemp": 70, "maxTemp": 84 },
+  { "date": "2024-08-09", "avgTemp": 80, "minTemp": 72, "maxTemp": 87 },
+  { "date": "2024-08-10", "avgTemp": 83, "minTemp": 75, "maxTemp": 91 },
+  { "date": "2024-08-11", "avgTemp": 78, "minTemp": 71, "maxTemp": 85 },
+  { "date": "2024-08-12", "avgTemp": 82, "minTemp": 74, "maxTemp": 90 },
+  { "date": "2024-08-13", "avgTemp": 79, "minTemp": 72, "maxTemp": 86 },
+  { "date": "2024-08-14", "avgTemp": 81, "minTemp": 73, "maxTemp": 88 }
+]

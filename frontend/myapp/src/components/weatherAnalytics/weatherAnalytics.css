@@ -1,0 +1,28 @@
+.weather-analytics {
+    margin: 20px;
+  }
+  
+  .interval-select {
+    margin-bottom: 20px;
+  }
+  
+  .interval-select label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .interval-select select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid #4682b4;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .interval-select select:hover {
+    border-color: #5a9bd5;
+  }
+  

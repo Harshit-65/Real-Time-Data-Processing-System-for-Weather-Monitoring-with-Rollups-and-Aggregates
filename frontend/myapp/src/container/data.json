@@ -1,0 +1,14 @@
+{
+    "location": {
+      "name": "Sydney",
+      "country": "Australia"
+    },
+    "current": {
+      "temp_f": 58,
+      "condition": {
+        "text": "Partly cloudy"
+      },
+      "wind_mph": 6,
+      "humidity": 70
+    }
+  }
