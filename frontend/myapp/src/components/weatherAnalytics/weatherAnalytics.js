@@ -1,19 +1,52 @@
 import React, { useState, useEffect } from 'react';
 // // import GraphBar from '../BarGraph/GraphBar';
 import LineGraph from "../LineGraph/LineGraph"
+<<<<<<< HEAD
 // import data from "./data.json";
 import "./weatherAnalytics.css";
 import axios from 'axios';
+=======
+import data from "./data.json";
+import "./weatherAnalytics.css";
+
+>>>>>>> 6b0e34fe17c1c762f8e27d34b69521dc778bfcfa
 
 const WeatherAnalytics = ({location}) => {
   const [weatherData, setWeatherData] = useState([]);
   const [interval, setInterval] = useState(7); // Default to past 7 days
 
+<<<<<<< HEAD
   // useEffect(() => {
   //   const fetchWeatherData = async () => {
   //     try {
   //       // const response = await fetch(`https://api.example.com/weather/interval?days=${interval}`); // Replace with your API endpoint
   //       // const data = await response.json();
+=======
+  useEffect(() => {
+    const fetchWeatherData = async () => {
+      try {
+        // const response = await fetch(`https://api.example.com/weather/interval?days=${interval}`); // Replace with your API endpoint
+        // const data = await response.json();
+        setWeatherData(data.slice(0, interval));
+      } catch (error) {
+        console.error('Error fetching weather data:', error);
+      }
+    };
+
+    fetchWeatherData();
+  }, [interval]);
+
+
+    // useEffect(() => {
+  //   const fetchWeatherData = async () => {
+  //     try {
+  //       const response = await fetch(
+  //         `https://api.example.com/weather/interval?location=${location}&days=${interval}` // Replace with your actual API endpoint
+  //       );
+  //       const data = await response.json();
+
+  //       // Slice the data based on interval and set the state
+>>>>>>> 6b0e34fe17c1c762f8e27d34b69521dc778bfcfa
   //       setWeatherData(data.slice(0, interval));
   //     } catch (error) {
   //       console.error('Error fetching weather data:', error);
@@ -21,6 +54,7 @@ const WeatherAnalytics = ({location}) => {
   //   };
 
   //   fetchWeatherData();
+<<<<<<< HEAD
   // }, [interval]);
 
 
@@ -54,6 +88,9 @@ const WeatherAnalytics = ({location}) => {
 
     fetchWeatherData();
   }, [location, interval]);
+=======
+  // }, [location, interval]);
+>>>>>>> 6b0e34fe17c1c762f8e27d34b69521dc778bfcfa
 
   
   const handleIntervalChange = (e) => {
@@ -72,7 +109,11 @@ const WeatherAnalytics = ({location}) => {
           <option value={90}>Past 3 months</option>
         </select>
       </div>
+<<<<<<< HEAD
       <LineGraph data={weatherData.summaries} />
+=======
+      <LineGraph data={weatherData} />
+>>>>>>> 6b0e34fe17c1c762f8e27d34b69521dc778bfcfa
     </div>
   );
 };
