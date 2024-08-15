@@ -1,5 +1,8 @@
 # Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
+![Screenshot 2024-08-16 005934](https://github.com/user-attachments/assets/eaa1f5bf-1293-4351-b541-14f6df41e8b9)
+
+
 ## Objective
 
 Develop a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system will utilize data from the OpenWeatherMap API.
@@ -42,6 +45,7 @@ cd Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggr
 
 4. Alternatively, you can use the build folder:
     ```sh
+    npm run build
     npm install -g serve
     serve -s build
     ```
